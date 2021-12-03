@@ -13,9 +13,9 @@ YouTube Clone application that lets you search for YouTube videos using the YouT
 
 ## Project Workflow
 
-- [Project Trello Board](https://trello.com/b/yNG0Heo0)
+- [](https://trello.com/b/yNG0Heo0)
 ![trello board](./assets/Trello.png)
-- [Project Wireframe](https://miro.com/app/board/uXjVOd8J-Tk=/)
+- [](https://miro.com/app/board/uXjVOd8J-Tk=/)
 ![Miro](./assets/Miro.png)
 - YouTube Clone
 ![YouTube Clone](assets/home-2.png)
