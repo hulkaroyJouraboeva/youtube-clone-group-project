@@ -11,6 +11,8 @@ YouTube Clone application that lets you search for YouTube videos using the YouT
 - Stephanie Lucano
 - Triane Peart
 
+<hr/>
+
 ## Project Workflow
 
 [Trello](https://trello.com/b/yNG0Heo0)
@@ -21,6 +23,8 @@ YouTube Clone application that lets you search for YouTube videos using the YouT
 
 YouTube Clone
 ![YouTube Clone](assets/home-2.png)
+
+<hr/>
 
 ## Used Resources
 
