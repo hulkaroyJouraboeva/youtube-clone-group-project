@@ -33,4 +33,3 @@ We used the following resources to create our code:
 - [`create-react-app`](https://www.npmjs.com/package/create-react-app)
 - [`react-router-dom`](https://www.npmjs.com/package/react-router-dom)
 - [`youtube-react`](https://www.npmjs.com/package/youtube-react)
-- [Getting and Implementing your YouTube API Key](./docs/youtube-api-key.md)
