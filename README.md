@@ -1,3 +1,25 @@
+# Team 5 YouTube Clone Project
+
+## About this Project
+
+YouTube Clone application that lets you search for YouTube videos using the YouTube API, then choose a video from a list to watch. For this project, we collaborated to recreate components similar to the YouTube application.
+
+## Team Members
+
+- Eric Cave
+- Hulkaroy Jouraboeva (Team Lead)
+- Stephanie Lucano
+- Triane Peart
+
+## Project Workflow
+
+- [Project Trello Board](https://trello.com/b/yNG0Heo0)
+![trello board](./assets/Trello.png)
+- [Project Wireframe](https://miro.com/app/board/uXjVOd8J-Tk=/)
+![Miro](./assets/Miro.png)
+- YouTube Clone
+![YouTube Clone](assets/home-2.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
