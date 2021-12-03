@@ -14,8 +14,7 @@ YouTube Clone application that lets you search for YouTube videos using the YouT
 <hr/>
 
 ## Project Workflow
-
-[Trello](https://trello.com/b/yNG0Heo0)
+We created a [Trello](https://trello.com/b/yNG0Heo0) board for project management. The Kanban board was regularly utilized to update the group on the project's progress.
 ![trello board](./assets/Trello.png)
 
 [Miro](https://miro.com/app/board/uXjVOd8J-Tk=/)
