@@ -13,11 +13,13 @@ YouTube Clone application that lets you search for YouTube videos using the YouT
 
 ## Project Workflow
 
-- [](https://trello.com/b/yNG0Heo0)
+[Trello](https://trello.com/b/yNG0Heo0)
 ![trello board](./assets/Trello.png)
-- [](https://miro.com/app/board/uXjVOd8J-Tk=/)
+
+[Miro](https://miro.com/app/board/uXjVOd8J-Tk=/)
 ![Miro](./assets/Miro.png)
-- YouTube Clone
+
+YouTube Clone
 ![YouTube Clone](assets/home-2.png)
 
 # Getting Started with Create React App
