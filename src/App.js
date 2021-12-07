@@ -15,7 +15,6 @@ class App extends React.Component{
   render(){
     return (
       <div className="App">
-        {process.env.REACT_APP_API_KEY}
         {/* <Nav/>
         <main>
          
