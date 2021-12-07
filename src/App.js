@@ -16,26 +16,28 @@ class App extends React.Component{
       <div className="App">
         <Nav/>
         <main>
-          <Routes
+         
+          <Routes/>
             <Route exact path="/" element={
-              //I FEEL AS IF THIS IS CODED CORRECTLY BUT THERE ARE RED LINES. PLEASE LOOK OVER FOR SYNTAX ERROR. 
               <>
               <Search/>
               <Result/>
               </>
             }
           />
-           <Routes
+           <Routes/>
             <Route exact path= "/video/:id" 
-            //SAME ISSUE AS ABOVE
+          
             element={
               <>
               <Search/>
               <Video/>
               </>
             }
-          />
+            />
+         <Routes/>
           <Route path="/about/" element ={<About/>}/>
+        
         </main>
       </div>
     )
