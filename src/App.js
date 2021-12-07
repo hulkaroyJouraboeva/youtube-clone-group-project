@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
 import {Route, Routes} from "react-router-dom";
-import Nav from ".Components/Nav";
-import Result from ".Components/Result"
-import About from ".Components/About"
-import Search from ".Components/Search"
+
+/*import Nav from "./Nav";
+//import Result from "./Result"
+import About from "./About"
+import Search from "./Search" */
 
 class App extends React.Component{
   constructor(){
@@ -14,7 +15,8 @@ class App extends React.Component{
   render(){
     return (
       <div className="App">
-        <Nav/>
+        {process.env.REACT_APP_API_KEY}
+        {/* <Nav/>
         <main>
          
           <Routes/>
@@ -38,7 +40,7 @@ class App extends React.Component{
          <Routes/>
           <Route path="/about/" element ={<About/>}/>
         
-        </main>
+        </main> */}
       </div>
     )
   }
