@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.css";
 import {Route, Routes} from "react-router-dom";
-
 /*import Nav from "./Nav";
 //import Result from "./Result"
 import About from "./About"
@@ -15,8 +14,7 @@ class App extends React.Component{
   render(){
     return (
       <div className="App">
-        {Triane}
-        {/* <Nav/>
+        {<Nav/>}
         <main>
          
           <Routes/>
@@ -40,7 +38,7 @@ class App extends React.Component{
          <Routes/>
           <Route path="/about/" element ={<About/>}/>
         
-        </main> */}
+        </main>
       </div>
     )
   }
