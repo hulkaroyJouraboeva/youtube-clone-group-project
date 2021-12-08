@@ -1,7 +1,6 @@
 const { Component } = require("react");
 
 class Nav extends Component {
-
     render(){
         return (
             <header>
@@ -16,6 +15,8 @@ class Nav extends Component {
                             <a href="/">
                                 Home
                             </a>
+                        </li>
+                        <li>
                             <a href="/about">
                                 About
                             </a>
