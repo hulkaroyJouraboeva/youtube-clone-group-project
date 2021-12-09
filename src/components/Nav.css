@@ -1,0 +1,61 @@
+header {
+    align-items: center;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 5% 35px 5%;
+}
+
+header article,
+header aside {
+    display: flex;
+    flex-direction: row;
+}
+
+header h1 {
+    height: auto;
+    margin: 0;
+    font-size: 60px;
+    color: white;
+}
+
+header h1 span {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
+header h1 img {
+    width: 40px;
+    height: 50px;
+}
+
+header h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+}
+
+header ul li {
+    display: inline-block;
+    font-family: Helvetica,sans-serif;
+    font-size: 32px;
+    padding-right: 45px;
+}
+
+header ul li a {
+    color: white;
+    border-bottom: 2px solid white;
+    font-weight: 400;
+    padding-bottom: 8px;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
