@@ -1,3 +1,8 @@
+// new
+import About from "./About"
+import { Link } from "react-router-dom";
+import "./Nav.css";
+import logo from "../logo.png"
 const { Component } = require("react");
 
 class Nav extends Component {
@@ -5,21 +10,21 @@ class Nav extends Component {
         return (
             <header>
                 <article>
-                    <h1>
+                    <h1>           
+                        <img src={logo} alt="imposter"/>
                         YouTube
+                        <span> clone</span>
                     </h1>
                 </article>
                 <aside>
                     <ul>
                         <li>
-                            <a href="/">
-                                Home
-                            </a>
+                            <Link to="/">Home
+                            </Link>
                         </li>
                         <li>
-                            <a href="/about">
-                                About
-                            </a>
+                            <Link to="/about">About
+                            </Link>
                         </li>
                     </ul>
                 </aside>

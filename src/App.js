@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./components/About/About";
+import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
 
@@ -8,8 +9,10 @@ class App extends React.Component {
     return (
       <div>
         <Nav />
-        <Home />
-        <About />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
       </div>
     );
   }
