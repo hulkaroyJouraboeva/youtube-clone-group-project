@@ -2,12 +2,9 @@ import React from "react";
 import SearchBar from "./SearchBar.js";
 
 class Home extends React.Component {
-    componentDidMount() {
-    }
-    
     render() {
         return (
-            <div>
+            <div> 
                 <SearchBar />
             </div>
         )
