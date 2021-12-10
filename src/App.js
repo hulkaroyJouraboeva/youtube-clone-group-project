@@ -17,7 +17,6 @@ class App extends React.Component {
         </Routes>
         <Comment/>
         <Footer/>
-            
       </div>
 
     );
