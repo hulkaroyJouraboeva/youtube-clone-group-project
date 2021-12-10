@@ -3,6 +3,8 @@ import About from "./components/About/About";
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
+import Comment from "./Comment";
+import Footer from "./Footer";
 
 class App extends React.Component {
   render() {
@@ -13,7 +15,10 @@ class App extends React.Component {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        <Comment/>
+        <Footer/>
       </div>
+
     );
   }
 }

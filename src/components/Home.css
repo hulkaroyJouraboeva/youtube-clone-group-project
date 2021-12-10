@@ -1,0 +1,20 @@
+.Home {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.SearchBar {
+    grid-column: 1/ span 2;
+    margin: 50px;
+}
+
+button {
+    background-color: rgb(173, 0, 0);
+}
+
+.Thumbnail {
+    margin: 50px;
+    grid-column: 1/ span 2;
+    row-gap: 200px;
+    column-gap: 50px;
+}
