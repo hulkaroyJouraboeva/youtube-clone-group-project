@@ -1,3 +1,6 @@
+// new
+import About from "./About/About"
+import { Link } from "react-router-dom";
 import "./Nav.css";
 import logo from "../logo.png"
 const { Component } = require("react");
@@ -16,14 +19,12 @@ class Nav extends Component {
                 <aside>
                     <ul>
                         <li>
-                            <a href="/">
-                                Home
-                            </a>
+                            <Link to="/">Home
+                            </Link>
                         </li>
                         <li>
-                            <a href="/about">
-                                About
-                            </a>
+                            <Link to="/about">About
+                            </Link>
                         </li>
                     </ul>
                 </aside>
