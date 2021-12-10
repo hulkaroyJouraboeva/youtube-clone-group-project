@@ -1,13 +1,10 @@
 import TeamList from "./TeamList";
 import Team from "./Team";
-import "./Team.css";
 
 export const About = () => {
   const team = TeamList.map((teammates) => {
-      return (
-    <Team key={teammates.name} teammate={teammates} />
-  )});
-    
+    return <Team key={teammates.name} teammate={teammates} />;
+  });
 
   return (
     <section className="team-list">
