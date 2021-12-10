@@ -1,6 +1,6 @@
 import React from "react";
 import SearchBar from "./SearchBar.js";
-import './Home.css'
+import './Home.css';
 
 class Home extends React.Component {
     render() {

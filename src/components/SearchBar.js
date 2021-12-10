@@ -1,5 +1,6 @@
 import React from 'react';
 import Thumbnail from './Thumbnail';
+import './Home.css';
 
 const data = {
     "kind": "youtube#searchListResponse",
@@ -205,17 +206,18 @@ class SearchBar extends React.Component {
         event.target.searchbar.value = '';
 
         // fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&key=${process.env.REACT_APP_API_KEY}&type=video&q=${this.state.userInput}`)
-        // fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyAzAqewTtjMPp4vQ0axyBb-3KEt8nfUITM&type=video&q=${this.state.userInput}`)
         // .then((response) => response.json())
         // .then((YTdata) => this.setState({ data: YTdata }))
         // .catch((error) => {
         //     throw error;
         // })
+        // fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyAzAqewTtjMPp4vQ0axyBb-3KEt8nfUITM&type=video&q=${this.state.userInput}`)
     } 
-    
+
     render() {
+        console.log(this.state.data)
         return (
-            <div>
+            <div className='SearchBar'>
                 <form onSubmit={this.handleSubmit}>
                     <input type='text' placeholder='type here' name='searchbar' required />
                     <button type='submit' value='search'>Search</button>

@@ -1,11 +1,19 @@
 import React from "react";
+import './Home.css';
 
 class Thumbnail extends React.Component {
     
     render() {
         return ( 
             <div className="Thumbnail">
-            { this.props.data.items.map((item) => <img src={item.snippet.thumbnails.high.url} alt='video thumbnail' key={item.id.videoId} /> ) }
+            { this.props.data.items.map((item) => {
+                return (
+                    <div>
+                        <img src={item.snippet.thumbnails.high.url} alt='video thumbnail' key={item.id.videoId} />
+                        <p>{item.snippet.title}</p> 
+                    </div>
+                )
+            })}
             </div>
         )
     }
