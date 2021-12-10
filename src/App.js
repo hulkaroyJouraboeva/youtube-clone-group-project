@@ -16,9 +16,7 @@ class App extends React.Component {
           <Route path="/about" element={<About />} />
         </Routes>
         <Comment/>
-
         <Footer/>
-            
       </div>
 
     );
