@@ -11,11 +11,7 @@ import './Home.css';
 class SearchBar extends React.Component {
     constructor() {
         super();
-        this.state = {
-            userInput: '',
-            submitted: false,
-            data: [],
-        }
+        this.state = { userInput: '' }
     }
 
     handleChange = (event) => {
@@ -28,12 +24,8 @@ class SearchBar extends React.Component {
         fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&key=${process.env.REACT_APP_API_KEY}&type=video&q=${this.state.userInput}`)
         .then((response) => response.json())
         .then((YTdata) => {
-            console.log(YTdata)
-            this.setState({ 
-                data: YTdata,
-                submitted: true
-            })
             event.target.searchbar.value = '';
+            this.props.isSubmitted(true, YTdata);
         })
         .catch((error) => {
             throw error;
@@ -47,7 +39,6 @@ class SearchBar extends React.Component {
                     <input type='text' placeholder='type here' name='searchbar' onChange={this.handleChange} required />
                     <button type='submit'>Search</button>
                 </form>
-                <div>{this.state.submitted ? <Thumbnail data={this.state.data} /> : 'No Search Results Yet! Please submit a search above :)'}</div>
             </div>
         )
     }
