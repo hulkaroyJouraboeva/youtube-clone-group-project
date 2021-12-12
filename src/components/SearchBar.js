@@ -14,12 +14,9 @@ class SearchBar extends React.Component {
         this.state = { userInput: '' }
     }
 
-    handleChange = (event) => {
-        this.setState({userInput: event.target.value})
-    }
+    handleChange = (event) => this.setState({userInput: event.target.value})
     
     handleSubmit = (event) => {
-        console.log(this.state.userInput)
         event.preventDefault();
         fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&key=${process.env.REACT_APP_API_KEY}&type=video&q=${this.state.userInput}`)
         .then((response) => response.json())
