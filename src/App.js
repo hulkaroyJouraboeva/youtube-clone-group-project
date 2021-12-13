@@ -3,9 +3,7 @@ import About from "./components/About/About";
 import { Route, Routes } from "react-router-dom";
 import Home from "./components/Home";
 import Nav from "./components/Nav";
-import Comment from "./Comment";
 import Footer from "./Footer";
-import Thumbnail from "./components/Thumbnail";
 import Video from "./components/Video";
 
 class App extends React.Component {
