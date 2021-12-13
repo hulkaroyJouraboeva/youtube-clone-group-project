@@ -1,4 +1,5 @@
 import "./Team.css";
+import 'animate.css';
 
 export const Team = ({ teammate }) => {
   const { pic, name, bio, github, linkedin } = teammate;
@@ -8,6 +9,8 @@ export const Team = ({ teammate }) => {
     <div class="bio-card">
       <div class="bio-card-inner">
         <div class="bio-card-front">
+          <p class="animate__animated animate__lightSpeedInLeft">{pic}</p>
+          {/* <div class="animate__animated animate__bounce animate__infinite">{pic}</div> */}
           <p>{pic}</p>
         </div>
         <div class="bio-card-back">
