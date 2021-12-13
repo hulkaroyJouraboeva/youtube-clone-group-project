@@ -2,12 +2,6 @@ import React from 'react';
 import Thumbnail from './Thumbnail';
 import './Home.css';
 
-// - What does it do?
-// - What was interesting to you in the code?
-// - What was a challenge you overcame?
-// - How did you overcome it?
-// - What's next for the feature/app?
-
 class SearchBar extends React.Component {
     constructor() {
         super();

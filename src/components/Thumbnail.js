@@ -1,7 +1,6 @@
 import React from "react";
-import { Link, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 import './Home.css';
-import Video from './Video';
 
 class Thumbnail extends React.Component {
     render() {
