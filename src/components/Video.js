@@ -1,26 +1,20 @@
 import React from 'react';
 import YouTube from 'react-youtube';
-import { Link } from 'react-router-dom'
 import Comment from '../Comment';
+import { useParams } from  'react-router-dom';
 
-class Video extends React.Component {
-    _onReady(event) {
-        event.target.pauseVideo();
-    }
+const _onReady = (event) => {
+    event.target.pauseVideo();
+}
 
-    render() {
-        <Comment/>
-        const opts = {
-        height: '390',
-        width: '640',
-        playerVars: {
-            autoplay: 0
-        }
-        };
-        
-        console.log(this.props.videoId)
-        return <YouTube videoId={this.props.videoId} opts={opts} onReady={this._onReady} />;
-    }
+const Video = () => {
+    const { id } = useParams();
+    return (
+        <div>
+            <YouTube videoId={id} onReady={_onReady} />;
+            <Comment />
+        </div>
+    )
 
 }
 

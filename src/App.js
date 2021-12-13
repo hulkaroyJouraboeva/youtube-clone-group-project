@@ -5,6 +5,8 @@ import Home from "./components/Home";
 import Nav from "./components/Nav";
 import Comment from "./Comment";
 import Footer from "./Footer";
+import Thumbnail from "./components/Thumbnail";
+import Video from "./components/Video";
 
 class App extends React.Component {
   render() {
@@ -14,6 +16,7 @@ class App extends React.Component {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path={`/videos/:id`} element={<Video />} />
         </Routes>
         <Footer/>
       </div>

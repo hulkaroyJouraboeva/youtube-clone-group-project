@@ -12,10 +12,6 @@ class Thumbnail extends React.Component {
                     <div>
                         <img src={item.snippet.thumbnails.high.url} alt='video thumbnail' key={item.id.videoId} />
                         <Link to={`/videos/${item.id.videoId}`}> <p>{item.snippet.title}</p> </Link>
-
-                        <Routes>
-                            <Route path={`/videos/${item.id.videoId}`} element={<Video videoId={item.id.videoId}/>} />
-                        </Routes>
                     </div>
                 )
             })}
