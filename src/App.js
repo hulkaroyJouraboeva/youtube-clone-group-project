@@ -1,13 +1,6 @@
 import React from "react";
 import About from "./components/About/About";
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 import { Route, Routes } from "react-router-dom";
->>>>>>> 53c79b6f3bec50429659401022bcb2958d3ba208
-=======
-import { Route, Routes } from "react-router-dom";
->>>>>>> 53c79b6f3bec50429659401022bcb2958d3ba208
 import Home from "./components/Home";
 import Nav from "./components/Nav";
 import Comment from "./Comment";
@@ -23,9 +16,7 @@ class App extends React.Component {
           <Route path="/about" element={<About />} />
         </Routes>
         <Comment/>
-
         <Footer/>
-            
       </div>
 
     );
