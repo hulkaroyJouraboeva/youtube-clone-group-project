@@ -14,10 +14,12 @@ button {
 }
 
 .Thumbnail {
-    /* margin: 50px;
-    grid-column: 1/ span 2;
-    row-gap: 200px;
-    column-gap: 50px; */
     display: flexbox;
     justify-content: space-between;
+}
+
+.Video {
+    margin: 90px;
+    padding: 40px;
+    text-align: center;
 }
