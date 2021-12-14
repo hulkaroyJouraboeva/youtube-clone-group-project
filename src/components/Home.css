@@ -4,7 +4,9 @@
 }
 
 .SearchBar {
-    margin: 50px;
+    margin: 90px;
+    padding: 40px;
+    text-align: center;
 }
 
 button {
