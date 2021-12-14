@@ -19,13 +19,13 @@ class Nav extends Component {
                 <aside>
                     <Link to="/">
                         <p>
-                            <i class="fas fa-home"></i>
+                            <i className="fas fa-home"></i>
                             <span>HOME</span>
                         </p>
                     </Link>
                     <Link to="/about">
                         <p>
-                            <i class="fas fa-users"></i>
+                            <i className="fas fa-users"></i>
                             <span>ABOUT</span>
                         </p>
                     </Link>

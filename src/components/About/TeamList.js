@@ -42,7 +42,7 @@ export const team = [
       />
     ),
     name: "Stephanie Lucano",
-    bio: "I am completing an intensive year long fellowship at Pursuit to build my career as a software engineer. I have a background in chemistry. In college I took a wide range of chemistry courses all taught very differently.",
+    bio: "Im a full stack fellow with a background in chemistry",
     github: <a href="https://github.com/Stephanie-Lucano">GitHub</a>,
     linkedin: (
       <a href="https://www.linkedin.com/in/stephanie-lucano-b84764150/">LinkedIn</a>

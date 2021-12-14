@@ -38,7 +38,7 @@ class Comment extends React.Component{
          <form onSubmit={this.handleSubmit}>
              <section className="commentBox">
              <input 
-             onchange={this.handleInput}
+             onChange={this.handleInput}
              type="text2"
              placeholder= "Add Comment" 
              value ={comments.comment}
