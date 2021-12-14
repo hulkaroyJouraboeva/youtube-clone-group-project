@@ -1,10 +1,9 @@
 .Home {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-around;
 }
 
 .SearchBar {
-    grid-column: 1/ span 2;
     margin: 50px;
 }
 
@@ -13,8 +12,10 @@ button {
 }
 
 .Thumbnail {
-    margin: 50px;
+    /* margin: 50px;
     grid-column: 1/ span 2;
     row-gap: 200px;
-    column-gap: 50px;
+    column-gap: 50px; */
+    display: flexbox;
+    justify-content: space-between;
 }

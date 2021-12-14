@@ -16,7 +16,7 @@ class SearchBar extends React.Component {
     
     handleSubmit = (event) => {
         event.preventDefault();
-        fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&key=${process.env.REACT_APP_API_KEY}&type=video&q=${this.state.userInput}`)
+        fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&key=${process.env.REACT_APP_API_KEY}&type=video&q=${this.state.userInput}&maxResults=8`)
         .then((response) => response.json())
         .then((YTdata) => {
             this.setState({

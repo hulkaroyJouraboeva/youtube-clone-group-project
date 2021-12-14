@@ -11,7 +11,7 @@ const Video = () => {
     const { id } = useParams();
     return (
         <div>
-            <YouTube videoId={id} onReady={_onReady} />;
+            <YouTube videoId={id} onReady={_onReady} />
             <Comment />
         </div>
     )

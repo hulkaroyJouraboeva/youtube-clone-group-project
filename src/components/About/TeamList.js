@@ -2,7 +2,6 @@ import cave from "./team_pics/pipvsewing.jpg";
 import hulk from "./team_pics/hulk.png";
 import ana from "./team_pics/ana.png";
 import steph from "./team_pics/stephgit.jpg";
-// import steph from "./team_pics/steph.jpg"
 
 export const team = [
   {
@@ -12,7 +11,7 @@ export const team = [
     name: "Eric Cave",
     bio: "Software Engineer that is passionate about sports, video games, and my children...",
     github: <a href="https://github.com/caveman49">GitHub</a>,
-    linkedin: <a href="linkedin.com/in/eric-caveman">LinkedIn</a>,
+    linkedin: (<a href="linkedin.com/in/eric-caveman">LinkedIn</a>),
   },
   {
     pic: (
@@ -22,9 +21,7 @@ export const team = [
     bio: "I am on the road to becoming a full stack web developer at Pursuit, a 1-year intensive program that trains individuals in software engineering.",
     github: <a href="https://github.com/hulkaroyJouraboeva">GitHub</a>,
     linkedin: (
-      <a href="https://www.linkedin.com/in/hulkaroy-jouraboeva-8998a6218/">
-        LinkedIn
-      </a>
+      <a href="https://www.linkedin.com/in/hulkaroy-jouraboeva-8998a6218/">LinkedIn</a>
     ),
   },
   {
@@ -48,9 +45,7 @@ export const team = [
     bio: "I am completing an intensive year long fellowship at Pursuit to build my career as a software engineer. I have a background in chemistry. In college I took a wide range of chemistry courses all taught very differently.",
     github: <a href="https://github.com/Stephanie-Lucano">GitHub</a>,
     linkedin: (
-      <a href="https://www.linkedin.com/in/stephanie-lucano-b84764150/">
-        LinkedIn
-      </a>
+      <a href="https://www.linkedin.com/in/stephanie-lucano-b84764150/">LinkedIn</a>
     ),
   },
 ];
