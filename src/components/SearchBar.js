@@ -16,13 +16,10 @@ class SearchBar extends React.Component {
     
     handleSubmit = (event) => {
         event.preventDefault();
-        fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&key=${process.env.REACT_APP_API_KEY}&type=video&q=${this.state.userInput}&maxResults=8`)
+        fetch(`https://youtube.googleapis.com/youtube/v3/search?part=snippet&key=${process.env.REACT_APP_API_KEY}&type=video&q=${this.state.userInput}`)
         .then((response) => response.json())
         .then((YTdata) => {
-            this.setState({
-                submitted: true,
-                data: YTdata 
-            })
+            this.setState({ data: YTdata, submitted: true })
         })
         .catch((error) => {
             throw error;

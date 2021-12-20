@@ -7,7 +7,7 @@ YouTube Clone application that lets you search for YouTube videos using the YouT
 ## Team Members
 
 - Eric Cave
-- Hulkaroy Jouraboeva (Team Lead)
+- Hulkaroy Jouraboeva
 - Stephanie Lucano
 - Triane Peart
 
